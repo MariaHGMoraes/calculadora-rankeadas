@@ -1,4 +1,4 @@
-// Função que calcula o saldo e define o nível
+// Calculo de saldo e definição de nível
 function calcularRankeadas(vitorias, derrotas) {
 
     let saldoVitorias = vitorias - derrotas
@@ -23,7 +23,7 @@ function calcularRankeadas(vitorias, derrotas) {
     return saldoVitorias + " está no nível de " + nivel
 }
 
-// Simulando vários jogadores usando laço de repetição
+// Simulador de jogadores com laço de repetição
 let jogadores = [
     { vitorias: 5, derrotas: 3 },
     { vitorias: 25, derrotas: 10 },
